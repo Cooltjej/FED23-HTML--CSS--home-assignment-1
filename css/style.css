@@ -1,0 +1,28 @@
+.body {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: right;
+    align-self: flex-end;
+}
+
+.banner {
+    width: 100%;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+.footer {
+    position: fixed;
+}

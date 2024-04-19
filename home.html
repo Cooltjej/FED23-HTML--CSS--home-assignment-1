@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="sv">
+                                <!--OBS UPPLÖSNING 2560x1440--><!--OBS UPPLÖSNING 2560x1440--><!--OBS UPPLÖSNING 2560x1440--><!--OBS UPPLÖSNING 2560x1440-->
+<head>                          <!--OBS UPPLÖSNING 2560x1440--><!--OBS UPPLÖSNING 2560x1440--><!--OBS UPPLÖSNING 2560x1440--><!--OBS UPPLÖSNING 2560x1440-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Jag har använt 2 olika css-filer, en för stylingen som är statisk
+                                                och en för stylingen på vardera sida. -->
+    <title>Strumpomaten</title>
+
+</head>
+
+<body class="body"> <!-- Bodyn är en class för att sätta samma padding och därmed layout på alla sidor. -->
+
+    <header class="header"> <!-- Header, information om vår hemsida i form av logga och nav-meny. -->
+        <div id="logga">
+
+            <a href="home.html">
+                <!-- Länk som gör loggan klickbar och tar oss till Home oavsett sida vi befinner oss på. -->
+
+                <img src="img/Logga/Logga3.jpg" alt="Strumpomaten Kanongranna Hossor">
+            </a>
+
+        </div>
+
+        <div class="nav"> <!-- nav-menyn ligger i en div för att enklare kunna positionera den. -->
+
+            <nav> <!-- En navigationsmeny med olika sidor på webbsidan. Den sidan vi är inne på är fetstilt. -->
+                <a href="home.html"><strong>Home</strong></a> |
+                <a href="about.html">About</a> |
+                <a href="blog.html">Blog</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div>
+        <img class="banner" src="img/Home/home-banner.jpg" alt="banner with socks"> <!-- En bild där alt= visar en text kopplat till bilden, 
+                                                                                istället för bilden om webbläsaren inte kan visa den.-->
+    </div>
+
+    <main id="main-home"> <!-- Main, innehåller det huvudsakliga innehållet på vår sida. 
+                                Den är mer beskrivande än en div och hjälper därmed även skärmläsare till viss del -->
+
+        <article id="article-home"> <!-- Article, syftet med en article är att innehålla en text eller ett innehåll som är logiskt bundet till sidan,
+                                     som en artikel. Också mer beskrivande än en div och hjälper således både utvecklare och skärmläsare att lättare förstå och navigera
+                                    i koden/på webbsidan.-->
+
+            <h1 id="h1-home">Skånes Fantastiska Hossor</h1> <!-- En rubrik, den största. Betyder 'HÄR ÄR INFORMATION TITTA PÅ MIG' -->
+
+            <p> <!-- En paragraf med text -->
+                Välkommen till strumpornas värld, där komfort och stil går hand i hand! Hos oss erbjuder vi strumpor som
+                inte bara är en grundläggande del av din dagliga klädsel utan också en förlängning av din personliga
+                stil och välbefinnande.
+            </p>
+
+            <p>
+                Våra strumpor tillverkas av noggrant utvalda material som andas och ger dina fötter den komfort de
+                förtjänar. Slipp obehag och irritation - välj kvalitet! Vi fokuserar på fantastisk passform, så våra
+                strumpor sitter bekvämt hela dagen, oavsett om du är på jobbet, tränar eller kopplar av.
+            </p>
+
+            <p>
+                Oavsett om du föredrar klassiska enfärgade strumpor eller livfulla mönster och färger, har vi något för
+                alla. Uppdatera din garderob och visa upp din stil med vårt breda utbud. Dessutom bryr vi oss om vår
+                planet och tillverkar våra strumpor med hållbarhet i åtanke.
+            </p>
+
+            <p>
+                Strumpor är mer än bara en accessoar. De är en viktig del av din dagliga klädsel och komfort. Välj våra
+                högkvalitativa strumpor för att uppleva en ny nivå av stil och välbefinnande.
+            </p>
+
+            <p>
+                Ta steget mot komfort och stil idag genom att utforska vårt sortiment. Vi är övertygade om att du kommer
+                älska våra strumpor precis lika mycket som vi gör!
+            </p>
+
+            <p>
+                Beställ nu och låt dina fötter få den kärlek de förtjänar. 🧦 <!-- En emoji pga kul. -->
+            </p>
+
+        </article>
+        <div id="figure-container"> <!-- Div pga samma anledning som i nav. -->
+
+            <figure id="figure-home"> <!-- Figure, en tagg för att visa att här kommer en bild. -->
+
+                <img id="strumpor-home" src="img/Home/strumpor-home.JPG" alt="Hossor i olika färger">
+                                                                                                    
+            </figure>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer> <!-- Footer, fotnoten på vår webbsida. Kan innehålla copywrights, länkar, och i mitt fall information. -->
+
+        <p>
+            Strumpomaten&copy; &bull; Tubsockegränd 23 &bull; 193 82 Sockan
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <main id="main">
+        <article id="article-home">
+            <h1 class="h1-rubrik-home">Skånes Fantastiska Hossor</h1>
+            <p class="home-info">
+                Välkommen till strumpornas värld, där komfort och stil går hand i hand! Hos oss erbjuder vi strumpor som
+                inte bara är en grundläggande del av din dagliga klädsel utan också en förlängning av din personliga
+                stil och välbefinnande.<br>
+                <br>
+                Våra strumpor tillverkas av noggrant utvalda material som andas och ger dina fötter den komfort de
+                förtjänar. Slipp obehag och irritation - välj kvalitet! Vi fokuserar på fantastisk passform, så våra
+                strumpor sitter bekvämt hela dagen, oavsett om du är på jobbet, tränar eller kopplar av.<br>
+                <br>
+                Oavsett om du föredrar klassiska enfärgade strumpor eller livfulla mönster och färger, har vi något för
+                alla. Uppdatera din garderob och visa upp din stil med vårt breda utbud. Dessutom bryr vi oss om vår
+                planet och tillverkar våra strumpor med hållbarhet i åtanke.<br>
+                <br>
+                Strumpor är mer än bara en accessoar. De är en viktig del av din dagliga klädsel och komfort. Välj våra
+                högkvalitativa strumpor för att uppleva en ny nivå av stil och välbefinnande.<br>
+                <br>
+                Ta steget mot komfort och stil idag genom att utforska vårt sortiment. Vi är övertygade om att du kommer
+                älska våra strumpor precis lika mycket som vi gör!<br>
+                <br>
+                Beställ nu och låt dina fötter få den kärlek de förtjänar. 🧦
+            </p>
+        </article>
+        <figure id="figure-home"><img id="img-home" src="img/strumpor-home.JPG" alt="hossor"></figure>
+    </main>
+
+    <hr style="width: 100%;">
+
+    <footer>
+        <p class="footer">&copy;Strumpomaten &bull; Strumpmaskinen nr 2 - Västra Hamnen &bull; 77 777 Malmö</p>
+    </footer> -->

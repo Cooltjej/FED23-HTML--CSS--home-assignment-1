@@ -1,0 +1,26 @@
+#main-home {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#article-home {
+    float: left;
+    width: 45%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+#h1-home {
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+#strumpor-home {
+    width: 500px;
+    height: 500px;
+}
+
+#figure-container {
+    float: right;
+}

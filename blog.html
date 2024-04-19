@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Strumpomatens Blog</title>
+
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <div id="logga">
+
+            <a href="home.html">
+
+                <img src="img/Logga/Logga3.jpg" alt="Strumpomaten Kanongranna Hossor">
+            </a>
+
+        </div>
+
+        <div class="nav">
+
+            <nav>
+                <a href="home.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="blog.html"><strong>Blog</strong></a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div>
+        <img class="banner" src="img/Blog/blog-banner.jpg" alt="banner med flaggor">
+    </div>
+
+
+
+    <main id="main-blog">
+
+        <aside id="aside"> <!-- Aside, ett sidofält med kategorier och taggar/knappar. -->
+
+            <h2 class="h2-blog">Categories</h2>
+
+            <ul class="list-blog"> <!-- Jag valde att lägga mina kategorier i en osorterad lista pga enkelt sätt att strukturera,
+                                    valde dock att styla bort bulletpointsen pga kände inte att dom hörde hemma i kategorierna på den här webbsidan. -->
+                <li class="li">
+                    Kul strumpor
+                </li>
+                <li class="li">
+                    Ovanliga strumpor
+                </li>
+                <li class="li">
+                    Strumpor Djurmotiv
+                </li>
+                <li class="li">
+                    Tåstrumpor
+                </li>
+            </ul>
+
+            <h3 id="h3-tags">Tags</h3> <!-- h3 pga underkategori till kategorier, tyckte jag. -->
+
+            <ul class="list-blog"> <!-- La mina knappar/tags i en lista pga samma anledning som kategorierna. -->
+
+            <li class="li">
+                <button class="button" type="button" value="button">Funny</button>
+            </li>
+
+            <li class="li">
+                <button class="button" type="button" value="button">Animals</button>
+            </li>
+
+            <li class="li">
+                <button class="button" type="button" value="button">Piggies</button>
+            </li>
+        </ul>
+
+        </aside>
+
+        <article id="blog-article"> 
+
+            <h2 id="h2-blog">Blog</h2>
+
+            <section id="blog-section"> <!-- En section, en sektion av en artikel. I det här fallet tyckte jag att blogg-inlägget 
+                                        var en sektion av den större sidan, artikeln. Används precis som allt annat för att strukturera
+                                        och underlätta för utvecklare och skärmläsare etc. -->
+
+                <h3 id="h3-blog">Blog article 1</h3>
+
+                <div id="figure-container">
+
+                    <figure id="figure-blog">
+
+                        <img id="blog-picture" src="img/Blog/strumpblog.png" alt="Bild från blogginlägg, visar ett par fötter med strumpor">
+
+                    </figure>
+                </div>
+
+                <p id="blogtext">
+                    Strumpor, de bortglömda hjältarna i vår garderob, har en osynlig superkraft. De värmer våra fötter
+                    på kalla vinterdagar och gör våra steg bekväma. Men de är mer än praktiska; de är en förlängning av
+                    vår personlighet. Från färgglada mönster till diskreta eleganta par, våra strumpor avslöjar vårt val
+                    av stil, humör och ibland till och med vårt sinne för humor.
+                </p>
+
+            </section>
+
+            <p id="comments">4 comments &bull; Emma Å.K &bull; 23-09-11 </p>
+        </article>
+
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p class="footer">Strumpomaten&copy; &bull; Tubsockegränd 23 &bull; 193 82 Sockan
+    </footer>
+</body>
+
+</html>

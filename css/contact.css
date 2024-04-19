@@ -1,0 +1,38 @@
+#form-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h2-contact {
+    font-size: x-large;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#fieldset {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#tell-me {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+#singleTextId {
+    margin-bottom: 15px;
+}
+
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+#button {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}

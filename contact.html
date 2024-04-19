@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kontakta Strumpomaten</title>
+
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <div id="logga">
+            <a href="home.html">
+                <img src="img/Logga/Logga3.jpg" alt="Strumpomaten Kanongranna Hossor">
+            </a>
+        </div>
+
+        <div class="nav">
+            <nav>
+                <a href="home.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="blog.html">Blog</a> |
+                <a href="contact.html"><strong>Contact</strong></a>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <img class="banner" src="img/Contact/contact-banner.jpg" alt="banner med telefoner">
+    </div>
+
+
+    <article id="form-container"> <!-- Article pga anser att ett formulär, nedan, är en del av en större sida. -->
+
+        <h2 id="h2-contact">Kontakta mig</h2>
+
+        <form> <!-- Ett formulär -->
+
+            <fieldset id="fieldset"> <!-- Jag använder fieldset för att jag vill ha en beskrivande "titel" av formuläret,
+                                            men det kan även användas för att klumpa ihop relaterade formulär. T.ex ett fieldset
+                                            med namn, telnr och email och ett för adress, postnr och postort. Används 
+                                            för att ge en bättre struktur. -->
+
+                <legend id="tell-me">Klagomål? Uppskattning? Hjälp? Berätta!</legend> <!-- Titel till mitt formulär. -->
+
+                <div>
+                    <label id="your-name" for="singleTextId">Ditt namn</label> <!-- Legend används för att beskriva varje formulärfält, i det här fallet
+                                                                                    var användaren ska skriva sitt namn. Attributet for är samma som [...]-->
+
+                    <input type="text" id="singleTextId" name="singleTextId" placeholder="Skriv ditt namn här"><!--[...] id:t för att länka ihop de två fälten.
+                                                                                                                Har lärt mig att man kan klicka på texten i labeln och så
+                                                                                                                förstår webbläsaren att man vill fylla i fältet. Skitcoolt!
+                                                                                                                Juste, används för struktur och en bättre användarupplevelse.-->
+                </div>
+
+                <div>
+                    <label id="textarea-label" for="textarea">Meddelande</label>
+
+                    <textarea rows="15" cols="50" name="textarea" id="textarea" placeholder="Låt tankarna flöda fritt!"></textarea>
+                    <!-- En textarea där användaren ska fylla i text. Rows berättar
+                    hur många rader det ska finnas och cols hur många kolumner. För
+                    att göra textrutan större. Placeholder visar en utgråad text som försvinner när användaren börjar skriva, visar att här ska du skriva.
+                    Taggen är också stängd på samma rad då allt emellan visar sig på webbsidan, t.ex mellanslag och enter.  -->
+                </div>
+
+
+                <button id="button" type="submit" value="submit">Berätta!</button> <!-- En knapp som berättar att det är en submit-knapp, alltså att användaren
+                                                                                     ska skicka in information.-->
+
+            </fieldset>
+        </form>
+    </article>
+    <hr>
+
+    <footer>
+        <p class="footer">Strumpomaten&copy; &bull; Tubsockegränd 23 &bull; 193 82 Sockan</p>
+    </footer>
+</body>
+
+</html>

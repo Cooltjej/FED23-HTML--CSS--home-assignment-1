@@ -1,0 +1,69 @@
+#main-blog {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h2-blog {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#aside {
+    float: right;
+    margin-right: 100px;
+}
+
+.list-blog {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    color: gray;
+    font-weight: bold;
+}
+
+.li {
+    margin-bottom: 10px;
+}
+
+#h3-tags {
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+
+.button {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.h2-blog {
+    margin-top: 0%;
+}
+
+#figure-container {
+    width: 350px;
+}
+
+#figure-blog {
+    padding: 0%;
+    margin: 0%;
+    float: left;
+    width: 300px;
+}
+
+#blog-picture {
+    height: 200px;
+}
+
+#blog-section {
+    width: 55%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+#comments {
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 150px;
+}
